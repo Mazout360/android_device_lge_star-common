@@ -19,6 +19,6 @@
 #define _BDROID_BUILDCFG_H
 
 #define BTM_DEF_LOCAL_NAME   "LG Optimus 2x"
-#define BTA_DISABLE_DELAY 1000 /* in milliseconds */
+#define BTA_DISABLE_DELAY 1000
 
 #endif
