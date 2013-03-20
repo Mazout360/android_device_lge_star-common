@@ -31,32 +31,51 @@
     <!-- These are all dummies, but need to be present to enable UI control of auto-brightness
                   The actual control and values are all in-kernel -->
     <integer-array name="config_autoBrightnessLevels">
-        <item>150</item>
-        <item>950</item>
-        <item>2500</item>
-        <item>15000</item>
+        <item>10</item>
+        <item>40</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>680</item>
+        <item>1200</item>
+        <item>1900</item>
+        <item>3000</item>
+        <item>10000</item>
     </integer-array>
     <!-- Array of output values for LCD backlight corresponding to the LUX values
                   in the config_autoBrightnessLevels array.  This array should have size one greater
          than the size of the config_autoBrightnessLevels array.
     -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>10</item>
-        <item>56</item>
-        <item>128</item>
-        <item>195</item>
-        <item>255</item>
+        <item>119</item>
+        <item>143</item>
+        <item>160</item>
+        <item>183</item>
+        <item>207</item>
+        <item>216</item>
+        <item>223</item>
+        <item>223</item>
+        <item>227</item>
+        <item>227</item>
+        <item>227</item>
     </integer-array>
     <!-- Array of output values for button backlight corresponding to the LUX values
                   in the config_autoBrightnessLevels array.  This array should have size one greater
          than the size of the config_autoBrightnessLevels array.
     -->
     <integer-array name="config_autoBrightnessButtonBacklightValues">
-        <item>1</item>
-        <item>1</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>150</item>
+        <item>150</item>
+        <item>150</item>
+        <item>150</item>
+        <item>150</item>
+        <item>150</item>
     </integer-array>
 
     <!-- Array of output values for keyboard backlight corresponding to the LUX values
@@ -64,11 +83,17 @@
          than the size of the config_autoBrightnessLevels array.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessKeyboardBacklightValues">
-        <item>1</item>
-        <item>1</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+        <item>150</item>
+        <item>150</item>
+        <item>150</item>
+        <item>150</item>
+        <item>150</item>
+        <item>150</item>
     </integer-array>
 
     <string-array translatable="false" name="config_tether_usb_regexs">
