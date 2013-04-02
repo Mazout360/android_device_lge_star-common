@@ -177,8 +177,4 @@
                   specified -->
     <string name="default_wallpaper_component">com.android.phasebeam/.PhaseBeamWallpaper</string>
 
-    <!-- Boolean indicating whether the start command should be called on the wireless interface
-         when starting the SoftAp -->
-    <bool name="config_wifiApStartInterface">true</bool>
-
 </resources>
